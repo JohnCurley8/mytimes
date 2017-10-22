@@ -32,23 +32,71 @@ nav span a{color:black;}
 
 #main {display: flex;
       border:1px solid black;
-      flex-flow: row wrap;}
+      flex-flow: row wrap;
+      justify-content: space-around;}
 
 .column {}
 
-.large {width:630px;
-      height:100px;
-      background-color: green;
-      border: 1px solid green;}
+.large {
+        width:630px;
+        border: 1px solid lightgreen;}
 
 .medium {
   width:300px;
-  height: 100px;
-  border: 1px solid brown;
+
+  border: 1px solid orange;
 }
 
 .small {
   width:240px;
   border:1px solid blue;
-  height: 100px;
 }
+
+#text1, #text2, #text3, #text1-2, #text2-2, #text1-3 {font-family: Georgia;
+  font-size: 17px;
+  color: black;}
+
+.pic {font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;}
+#story1 {border:1px solid black}
+
+#title1 {border:1px solid black;
+        background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+        font-family: Georgia;
+        font-weight: bold;
+        font-size: 40px;
+        color: white;
+        height:300px;}
+
+#story2 {border:1px solid black;}
+
+#title2 {border:1px solid black;}
+
+#earth {border:1px solid black;
+        background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+        height: 300px;
+        text-align:center;}
+
+#story3 {border:1px solid black;}
+
+#cam {border:1px solid black;
+      background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+      height: 300px;
+      text-align:center;}
+
+#story1-2 {border:1px solid black;}
+#title1-2 {border:1px solid black;}
+#text1-2{border:1px solid black;}
+#story2-2{border:1px solid black;}
+
+#title2-2{border:1px solid black;
+        background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+        height:300px;
+        text-align:center;}
+
+#text2-2{border:1px solid black;}
+#cookie {border:1px solid black;}
+#story1-3{border:1px solid black;}
+#title1-3{border:1px solid black;}
